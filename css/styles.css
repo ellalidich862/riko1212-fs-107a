@@ -1,0 +1,387 @@
+body {
+    font-family: 'Montserrat', 'Tahoma', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sellers {
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.title .accent {
+    color: #fd9222;
+}
+
+/* ----------------HEADER--------------------------- */
+
+.header-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.header-logo-italic {
+    font-style: italic;
+}
+
+.header-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+.header-menu-link:hover, 
+.header-menu-link:focus,
+.header-menu-link:focus {
+     color:orange;
+}
+
+.hero {
+    background-color: rgba(17,17,17,0.6);
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color:#fff;
+}
+
+.hero-title::selection {
+    background-color: blueviolet;
+}
+
+.hero-btn-main {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    color:#fff; 
+    cursor: pointer;
+}
+
+.hero-btn-link {
+    font-weight: 600;
+    font-size: 14px;
+    color:#fff;
+}
+
+.hero-btn-scroll {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color:#fff;
+}
+
+/* ---------------------FEAUTES--------------------------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  /* clip: rect(0 0 0 0); */
+  overflow: hidden;
+}
+
+
+.Features {
+    background-color: #1e1823;
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+.features-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.features-item-title {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(255,255,255,0.7)
+}
+
+/* ------------------TASTE------------------------------- */
+
+.taste {
+}
+
+.taste-title {
+}
+
+.tast-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center; 
+    color:#111;
+}
+
+.taste-list {
+}
+
+.taste-item {
+}
+
+.taste-image {
+}
+
+.taste-subtitle {
+    font-weight: 600; 
+    font-size: 14px;
+    line-height: 1.29; 
+    letter-spacing: -0.02em; 
+    text-transform: uppercase;
+    color: #fff;
+}
+/* ---------------------MADE------------------------- */ 
+
+.made {
+}
+
+.made-title {
+}
+
+.made-image {
+}
+
+.made-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111
+}
+
+.made-list {
+}
+
+.made-item {
+}
+
+.made-item-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+/* ---------------------------PRODUCTS------------------------------------------ */
+
+
+.products {
+}
+.products-title {
+}
+
+.products-list {
+}
+
+.products-item {
+}
+
+.products-image {
+}
+
+.products-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+.products-text {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.products-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #111;
+}
+
+/* ----------------------Sellers--------------------------------- */ 
+
+.sellers {
+}
+
+.sellers-title {
+}
+
+.sellers-list {
+}
+
+.sellers-item {
+}
+
+.sellers-image {
+}
+
+.sellers-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+/* --------------------LOVED----------------------------------- */ 
+
+.loved-title {
+}
+
+.loved-list {
+}
+
+.loved-item {
+}
+
+.loved-image {
+}
+
+.loved-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #111;
+}
+
+.loved-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.loved-btn {
+    font-weight: 600;
+    font-size: 18px;
+    color: #111;
+}
+
+/* ----------------------FOOTER--------------------------------- */ 
+
+.footer {
+    background-color: #1e1823;
+}
+.footer-text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-text .accent{
+    color: #fd9222;
+}
+
+.footer-subtitle {
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 1.29; 
+    text-align: center;
+    color: #fff
+}
+.footer-soc-list {
+}
+.fotter-soc-item {
+}
+.footer-contacts {
+}
+.footer-contacts-list {
+}
+.footer-contact-link {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff
+}
+.footer-menu-list {
+}
+.footer-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #fff
+}
+
+
+/* ------------------------------------------------------------- */
+
+
+
+
+/*  
+* {
+    color: aqua;
+}
+
+body {
+    color: red;
+}
+
+#made {
+    background-color: aquamarine;
+}
+
+.made-subtitle {
+    color: green;
+}
+
+[href] {
+    color:blueviolet;
+}
+
+[href="https://www.google.com/"] {
+    color:fuchsia;
+}
+
+.hero h3 {
+    color: darkblue;
+}
+
+.hero > p {
+    color: blue;
+}
+*/
